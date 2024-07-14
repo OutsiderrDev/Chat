@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import './Chat.css';
 
 const responses = [
-  "odpowiedz1",
-  "odpowiedz2",
-  "odpowiedz3",
-  "odpowiedz4",
-  "odpowiedz5",
-  "odpowiedz6",
-  "odpowiedz7",
-  "odpowiedz8",
-  "odpowiedz9",
-  "odpowiedz10"
+  "przykładowa odpowiedz 1",
+  "przykładowa odpowiedz 2",
+  "przykładowa odpowiedz 3",
+  "przykładowa odpowiedz 4",
+  "przykładowa odpowiedz 5",
+  "przykładowa odpowiedz 6",
+  "przykładowa odpowiedz 7",
+  "przykładowa odpowiedz 8",
+  "przykładowa odpowiedz 9",
+  "przykładowa odpowiedz 10"
 ];
 
 const Chat = () => {
@@ -46,7 +46,7 @@ const Chat = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           className="input"
-          placeholder="Napisz wiadomość..."
+          placeholder="Napisz wiadomość"
         />
         <button type="submit" className="button">Wyślij</button>
       </form>
